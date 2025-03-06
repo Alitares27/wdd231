@@ -95,11 +95,10 @@ main {
 }
 
 main h1 {
- 
-    margin: 0 auto;
     padding-top: 0.3em;
     font-family: "Roboto";
     color: #174e70;
+    margin-left: 1rem;
 }
 
 section  {
@@ -112,6 +111,20 @@ section  {
     margin: 0 auto;
     justify-content: center;
     margin: 1em;
+}
+
+aside{
+    width: 60%;
+    margin: 0 auto;
+}
+
+aside button{
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
 }
 
 .course ul {

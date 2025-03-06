@@ -39,8 +39,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 0 auto;
-        justify-content: center;
-        gap: 1em;
+        width: 95%;
     }
 
     .courseList {
