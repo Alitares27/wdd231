@@ -101,6 +101,12 @@ main h1 {
     margin-left: 1rem;
 }
 
+article{
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 section  {
     background-color: #fff;
     border: 1px solid #b2b2b2;
@@ -125,6 +131,7 @@ aside button{
     border: none;
     width: 100%;
     padding: 0.5rem;
+    font-weight: 900;
 }
 
 .course ul {
@@ -163,13 +170,6 @@ figure {
     padding: 0.5em 3em;
 }
 
-.certificateBtn a {
-    background-color: black;
-    color: white;
-    border-radius: 0.2em;
-    justify-content: space-between;
-}
-
 .courseList {
     display: grid;
     grid-template-columns: repeat(1, 1fr); 
@@ -183,12 +183,13 @@ figure {
     color: white;
     cursor: pointer;
     border: none;
-    border-radius: 0.2em;
+    border-radius: 0.5em;
     padding: 0.5em 1em;
     flex-grow: 1;
     width: 95%;
     margin: 0 auto;
     justify-content: center;
+    font-weight: 900;
 }
 
 
@@ -200,8 +201,13 @@ footer {
     padding: 1rem;
 }
 
+footer img {
+    width:5%
+}
+
 .lastMod {
     padding: 0.5em 0;
     color: yellow;
     font-weight: 700;
 }
+
