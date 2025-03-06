@@ -93,12 +93,11 @@ main {
     align-items: center;
 
 }
-
-main h1 {
+.mainTitle {
     padding-top: 0.3em;
     font-family: "Roboto";
     color: #174e70;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
 }
 
 figure img{
