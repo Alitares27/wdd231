@@ -101,7 +101,7 @@ main h1 {
     margin-left: 1rem;
 }
 
-article{
+.topBox{
     width: 95%;
     margin: 0 auto;
     justify-content: center;
