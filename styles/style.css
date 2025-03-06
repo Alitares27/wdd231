@@ -9,11 +9,7 @@ header {
     padding-top: 1em;
     display: flex;
     flex-direction: row;
-}
-
-header h1 {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
+    align-items: center;
 }
 
 .headerText {
@@ -24,7 +20,13 @@ header h1 {
     justify-content: center;
     margin: 0 auto;
     padding-bottom: 1.5em;
+    align-items: center;
+}
 
+.headerText figcaption {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 2rem;
 }
 
 .headerimage {
@@ -46,6 +48,7 @@ header h1 {
     text-decoration: none;
     padding: 0.5rem 0.5rem;
     color: white;
+    font-family: "Roboto";
 }
 
 #menu::before {
@@ -65,6 +68,7 @@ header h1 {
 .navigation a {
     display: block;
     color: white;
+    font-family: "Roboto";
     text-decoration: none;
     text-align: center;
     padding: 1em;
