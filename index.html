@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description"
+        content="This page provides an overview of the WDD 131 - Dynamic Web Fundamentals course, including information about the author, useful web development resources, and details about Rosario, Argentina.">
+    <meta name="author" content="Aldair Payehuanca Arias">
+    <title>Course Home Page - Aldair Payehuanca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
+
 <body>
-    
+
+    <header>
+        <div class="headerText">
+            <img class="headerimage" src="images/me.jpg" alt="">
+            <h1>Aldair P. Arias</h1>
+        </div>
+        <div class="navBar">
+            <a id="menu" href="#"></a>
+            <div class="navigationBar">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Chamber</a></li>
+                        <li><a href="#">Github Profile</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="mainTitle">home</h1>
+
+        <article class="topBox">
+            <section class="descriptions">
+                <div class="course">
+                    <h2 class="card-header">Course Work</h2>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="country">
+                    <h2 class="card-header">Rosario, Argentina</h2>
+                    <figure>
+                        <img src="images/rosario.webp" alt="rosario" width="25%">
+                        <figcaption>Flag monument - Rosario</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </article>
+
+        <section class="certifications">
+            <div class="certificate">
+                <h2 class="certificationTitle">Web and Programming Certificate</h2>
+                <ul class="certificateBtn">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">CSE</a></li>
+                    <li><a href="#">WDD</a></li>
+                </ul>
+                <hr>
+                <div class="courseList">
+                    <button>CSE 110</button>
+                    <button>WDD 130</button>
+                    <button>CSE 111</button>
+                    <button>CSE 210</button>
+                    <button>WDD 131</button>
+                    <button>WDD 231</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> &#128515; Aldair Payehuanca Arias &#128515; Argentina <img
+                src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" alt="Flag_of_Argentina"
+                width="5%">
+        </p>
+        <p class="lastMod">Last modification: <span id="modification"></span></p>
+    </footer>
+    <script src="scripts/script.js" defer></script>
 </body>
+
 </html>

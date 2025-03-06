@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #174e70;
+    color: #fff;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+}
+
+.headerText {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+    width: 95%;
+}
+
+.headerimage {
+    max-width: 15%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+
+/* Basic nav styling */
+/*nav-menu*/
+.navigationBar {
+    background: #174e70;
+}
+
+#menu {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    color: white;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 48em;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.navigation a:hover {
+    color: black;
+    background-color: white;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "x";
+}
+
+
+/*Body*/
+main {
+    width: 99%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+main h1 {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 0.3em;
+    font-family: "Roboto";
+    color: #174e70;
+}
+
+section  {
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    width: 99%;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 1em;
+}
+
+.course ul {
+    margin-left: 1.5em;
+    padding: 1em;
+}
+
+figure {
+    padding: 1em;
+    text-align: center;
+}
+
+.card-header,
+.certificationTitle {
+    background-color: #174e70;
+    color: white;
+    text-align: center;
+    padding: 0.4em;
+    font-weight: bold;
+}
+
+.certificateBtn,
+.coursesBtn {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1em;
+    gap: 1em;
+    justify-content: center;
+    text-align: center;
+}
+
+.certificateBtn a,
+.coursesBtn a {
+    text-decoration: none;
+    padding: 0.5em 3em;
+}
+
+.certificateBtn a {
+    background-color: black;
+    color: white;
+    border-radius: 0.2em;
+    justify-content: space-between;
+}
+
+.courseList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 10px; 
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.courseList button {
+    background-color: #662F1F;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.2em;
+    padding: 0.5em 1em;
+    flex-grow: 1;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+/* Footer styling */
+footer {
+    background: #174e70;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.lastMod {
+    padding: 0.5em 0;
+    color: yellow;
+    font-weight: 700;
+}
