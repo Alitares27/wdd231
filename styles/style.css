@@ -101,6 +101,10 @@ main h1 {
     margin-left: 1rem;
 }
 
+figure img{
+    width:20%;
+}
+
 .topBox{
     width: 95%;
     margin: 0 auto;
