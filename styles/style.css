@@ -142,6 +142,13 @@ aside button{
     cursor: pointer;
 }
 
+.credits{
+    padding: 1em;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Roboto";
+}
+
 .course ul {
     margin-left: 1.5em;
     padding: 1em;

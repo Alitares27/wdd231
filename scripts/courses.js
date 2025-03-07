@@ -96,9 +96,13 @@ function filterAndDisplayCourses(subject) {
     displayCourses(filteredCourses);
 }
 
+
+
 function displayCourses(filteredCourses) {
     container.innerHTML = "";
     const fragment = document.createDocumentFragment();
+    let totalCredits = 0;
+
     filteredCourses.forEach(course => {
         const courseBtn = document.createElement("button");
         courseBtn.className = "courseBtn";
@@ -107,8 +111,12 @@ function displayCourses(filteredCourses) {
         courseBtn.style.color = course.completed ? 'black' : 'white';
         courseBtn.style.cursor = course.completed ? 'unset' : 'pointer';
         fragment.appendChild(courseBtn);
+
+        totalCredits += course.credits;
     });
     container.appendChild(fragment);
+    const numberCredit = document.getElementById("numberCredit");
+    numberCredit.innerHTML = totalCredits;
 }
 
 // Display all courses
