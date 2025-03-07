@@ -85,42 +85,33 @@ const cseLink = document.getElementById("CSE");
 const container = document.querySelector(".courseList");
 
 //Event Listeners
-allLink.addEventListener("click", ()=>{
-    displayCourses(courses);
-  });
+allLink.addEventListener("click", () => filterAndDisplayCourses());
+wddLink.addEventListener("click", () => filterAndDisplayCourses("WDD"));
+cseLink.addEventListener("click", () => filterAndDisplayCourses("CSE"));
 
-  wddLink.addEventListener("click", ()=>{
-    const filteredCourses = courses.filter(course => course.subject === "WDD");
+
+//Functions
+function filterAndDisplayCourses(subject) {
+    const filteredCourses = subject ? courses.filter(course => course.subject === subject) : courses;
     displayCourses(filteredCourses);
-  });
-
-  cseLink.addEventListener("click", ()=>{
-    const filteredCourses = courses.filter(course => course.subject === "CSE");
-    displayCourses(filteredCourses);
-  });
-
-  displayCourses(courses)
-
-//Display course buttons
-function displayCourses(filteredCourses){
-container.innerHTML = "";
-filteredCourses.forEach(course => {
-    const courseBtn = document.createElement("button");
-    courseBtn.className = "courseBtn";
-    
-    if (course.completed) {
-        courseBtn.innerHTML = "✔ " + course.subject + " " + course.number
-        courseBtn.style.backgroundColor = 'darkgrey';
-        courseBtn.style.color = 'black'
-        courseBtn.style.cursor = 'unset'
-    } else {
-        courseBtn.innerHTML = course.subject + " " + course.number
-        courseBtn.style.backgroundColor = '#662F1F';
-        courseBtn.style.color = 'white';
-    }
-
-    container.appendChild(courseBtn)
-})
 }
+
+function displayCourses(filteredCourses) {
+    container.innerHTML = "";
+    const fragment = document.createDocumentFragment();
+    filteredCourses.forEach(course => {
+        const courseBtn = document.createElement("button");
+        courseBtn.className = "courseBtn";
+        courseBtn.innerHTML = course.completed ? `✔ ${course.subject} ${course.number}` : `${course.subject} ${course.number}`;
+        courseBtn.style.backgroundColor = course.completed ? 'darkgrey' : '#662F1F';
+        courseBtn.style.color = course.completed ? 'black' : 'white';
+        courseBtn.style.cursor = course.completed ? 'unset' : 'pointer';
+        fragment.appendChild(courseBtn);
+    });
+    container.appendChild(fragment);
+}
+
+// Display all courses
+displayCourses(courses);
 
 
