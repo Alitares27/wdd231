@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #174e70;
+    color: #fff;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerContent {
+    display: flex;
+
+    gap: 1em;
+    text-align: left;
+    justify-content: left;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+    align-items: center;
+}
+
+.trademark {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.headerimage {
+    max-width: 15%;
+}
+
+/* nav styling */
+.navigationBar {
+    background: #174e70;
+}
+
+#menu {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    font-family: "Roboto";
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 48em;
+    text-align: right;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    font-family: "Roboto";
+    text-decoration: none;
+    text-align: right;
+    padding: 1em;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.navigation a:hover {
+    color: #174e70;
+    background-color: white;
+}
+
+.show li {
+    display: block;
+}
+
+#menu{
+    text-align: right;
+}
+
+#menu.show::before {
+    content: "x";
+}
+
+/*Body*/
+main {
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+figure.hero-image {
+    text-align: center;
+    position: relative;
+}
+
+figure.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+figure.hero-image figcaption {
+    position: absolute;
+    top: 75%;
+    right: 5%;
+    color: white;
+    font-size: 90%;
+    font-family: "Roboto";
+}
+
+figure.hero-image a{
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    background-color: #174e70;
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+
+/* middle-box */
+.middle-header {
+    padding-top: 0.3em;
+    font-family: "Roboto";
+    color: #174e70;
+}
+
+section.middle-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* members-box */
+div.members-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    gap: 1em;
+}
+
+
+
+/* Footer styling */
+footer {
+    background: #174e70;
+    color: white;
+    padding: 1rem;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.socialMedia img {
+    width:60%;  
+}
+
+.contact,.copyRight{
+    padding: 1em;
+}

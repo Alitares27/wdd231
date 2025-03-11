@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Directory page for the Rosario Chamber of Commerce, providing information about events, weather, and members.">
+    <meta name="author" content="Aldair Payehuanca Arias">
+    <title>Directory - Aldair Payehuanca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./chamber/styles/normalize.css">
+    <link rel="stylesheet" href="./chamber/styles/style.css">
+    <link rel="stylesheet" href="./chamber/styles/large.css">
+</head>
+
+<body>
+
+    <header>
+        <figure class="headerContent">
+            <img class="headerimage" src="./chamber/images/RosarioLogo.webp" loading="lazy" alt="me">
+            <div class="headerText">
+                <figcaption class="trademark">Rosario</figcaption>
+                <figcaption class="slogan">Chamber of Commerce</figcaption>
+            </div>
+        </figure>
+        <div class="navBar">
+            <a id="menu" href="#" aria-label="Open the navigation menu"></a>
+            <div class="navigationBar">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Discover</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-image">
+            <figure class="hero-image">
+                <img src="./chamber/images/rosario.webp" alt="hero rosario">
+                <figcaption><a href="#">Keynote Tickets</a></figcaption>
+            </figure>
+        </section>
+        <section class="middle-box">
+            <h1 class="middle-header">Home</h1>
+            <div class="events">
+                <h2>Events</h2>
+
+            </div>
+            <div class="weather">
+                <h2>Current Weather</h2>
+                <strong>75° F</strong>
+                <p>Party Cloudy</p>
+                <p>High: 85°</p>
+                <p>Low: 52°</p>
+                <p>Humidity: 34%</p>
+                <p>Sunrise: 7:30am</p>
+                <p>Sunset: 9:59pm</p>
+            </div>
+            <div class="forecast">
+                <h2>Weather Forecast</h2>
+                <p>Today: <strong>90°F</strong> </p>
+                <p>Wednesday: <strong>89°F</strong></p>
+                <p>Thursday: <strong>68°F</strong></p>
+            </div>
+        </section>
+
+        <section class="members-box">
+            <div class="members-cards">Card</div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="contact">
+            <strong>Rosario chamber of Commerce</strong>
+            <p>3400 St. Martin Avenue</p>
+            <p>Rosario, Argentina</p>
+            <p>info@rosariochamber.org</p>
+        </div>
+
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/"><img src="./chamber/images/facebook.webp" alt="facebook"></a>
+            <a href="https://x.com/"><img src="./chamber/images/X.webp" alt="twitter"></a>
+            <a href="https://www.instagram.com/"><img src="./chamber/images/instagram.webp" alt="instagram"></a>
+        </div>
+        <div class="copyRight">
+            <strong>WDD231 Class Project</strong>
+            <p>Aldair Payehuanca</p>
+            <p>&copy;<span id="year"></span> Rosario chamber of Commerce</p>
+            <p class="lastMod">Last modification: <span id="modification"></span></p>
+        </div>
+
+    </footer>
+    <script src="./scripts/dates.js" defer></script>
+    <script src="./scripts/navigation.js" defer></script>
+    <script src="./chamber/scripts/script.js" defer></script>
+</body>
+
+</html>

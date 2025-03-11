@@ -1,0 +1,59 @@
+@media only screen and (min-width: 21.9em) {
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .navigationBar{
+        background-color: black;
+    }
+
+    nav {
+        position: unset;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    h1.middle-header {
+        display: grid;
+        grid-column: span 3;
+    }
+
+    section.middle-box {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+        margin: 0 auto;
+    }
+
+    div.members-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

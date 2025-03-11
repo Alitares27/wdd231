@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Juan Pérez",
+    "businessLine": "Software Developer",
+    "email": "juan.perez@rosario.com",
+    "phone": "+54 341 123 4567",
+    "website": "https://rosario.com/juanperez",
+    "image":""
+  },
+  {
+    "name": "María López",
+    "businessLine": "Graphic Designer",
+    "email": "maria.lopez@rosario.com",
+    "phone": "+54 341 234 5678",
+    "website": "https://rosario.com/marialopez",
+    "image":""
+  },
+  {
+    "name": "Carlos García",
+    "businessLine": "Project Manager",
+    "email": "carlos.garcia@rosario.com",
+    "phone": "+54 341 345 6789",
+    "website": "https://rosario.com/carlosgarcia",
+    "image":""
+  }
+]
