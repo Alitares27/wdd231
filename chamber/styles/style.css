@@ -97,17 +97,17 @@ main {
 
 }
 
-figure.hero-image {
+section.hero-image {
     text-align: center;
     position: relative;
 }
 
-figure.hero-image img {
+section.hero-image img {
     width: 100%;
     height: auto;
 }
 
-figure.hero-image figcaption {
+section.hero-image p {
     position: absolute;
     top: 75%;
     right: 5%;
@@ -116,7 +116,7 @@ figure.hero-image figcaption {
     font-family: "Roboto";
 }
 
-figure.hero-image a{
+section.hero-image a{
     text-decoration: none;
     font-weight: 900;
     color: white;
