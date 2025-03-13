@@ -82,7 +82,7 @@ header {
     display: block;
 }
 
-#menu{
+#menu {
     text-align: right;
 }
 
@@ -103,8 +103,10 @@ section.hero-image {
 }
 
 section.hero-image img {
-    width: 100%;
+    width: 99%;
     height: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 section.hero-image p {
@@ -116,7 +118,7 @@ section.hero-image p {
     font-family: "Roboto";
 }
 
-section.hero-image a{
+section.hero-image a {
     text-decoration: none;
     font-weight: 900;
     color: white;
@@ -140,15 +142,93 @@ section.middle-box {
     padding: 1em;
 }
 
+.events p {
+    padding: 1em;
+    overflow: hidden; 
+    word-wrap: break-word;
+}
+
+div.events,
+div.weather,
+div.forecast {
+    border: 2px solid #174e70;
+    border-radius: 5px;
+
+}
+
+div.events h2,
+div.weather h2,
+div.forecast h2 {
+    background-color: #174e70;
+    padding: 0.5em;
+    font-size: 1.2em;
+    color: white;
+    overflow: hidden; /* Oculta el desbordamiento */
+    word-wrap: break-word;
+}
+
+div.weather-details,
+div.forecast-details {
+    padding: 1em;
+}
+
+div.forecast-box{
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+
+div.forecast-box img{
+   width: 70%;
+   padding: 1em;
+}
+
+
 /* members-box */
-div.members-cards{
+div.members-cards {
     display: grid;
     grid-template-columns: 1fr;
     padding: 1em;
     gap: 1em;
+
 }
 
+.userCard {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0.5em;
+}
 
+.userCard h3 {
+    font-family: "Pacifico", cursive;
+    font-size: 1.5em;
+}
+
+.userCard h4 {
+    font-family: "roboto", serif;
+    font-size: 0.7em;
+    padding: 2%;
+}
+
+.userCard hr {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.userCard img {
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.userCard p {
+    text-align: left;
+    font-size: 90%;
+    overflow: hidden; 
+    word-wrap: break-word;
+}
 
 /* Footer styling */
 footer {
@@ -165,9 +245,10 @@ footer {
 }
 
 .socialMedia img {
-    width:60%;  
+    width: 60%;
 }
 
-.contact,.copyRight{
+.contact,
+.copyRight {
     padding: 1em;
 }
