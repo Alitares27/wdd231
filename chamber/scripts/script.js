@@ -2,7 +2,7 @@ const container = document.querySelector(".members-cards");
 
 async function fetchMembers() {
     try {
-        const response = await fetch("/chamber/data/members.json");
+        const response = await fetch("../chamber/data/members.json");
         const members = await response.json();
         container.innerHTML = "";
         members.forEach(member => {
