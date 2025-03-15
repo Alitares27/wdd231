@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Tech Innovators Inc.",
+    "address": "123 Innovation Drive, Silicon Valley, CA",
+    "phone": "+1-800-555-1234",
+    "website": "https://www.techinnovators.com",
+    "image": "https://s3-eu-west-1.amazonaws.com/tpd/logos/64dc6a8abb8fcb6fa88fc404/0x0.png",
+    "membershipLevel": 3,
+    "industry": "Technology",
+    "founded": 2005
+  },
+  {
+    "name": "Green Energy Solutions",
+    "address": "456 Solar Way, Austin, TX",
+    "phone": "+1-512-555-5678",
+    "website": "https://www.greenenergy.com",
+    "image": "https://greensolutionsenergy.in/wp-content/uploads/2021/07/1.png",
+    "membershipLevel": 2,
+    "industry": "Renewable Energy",
+    "founded": 2010
+  },
+  {
+    "name": "Swift Logistics",
+    "address": "789 Cargo Lane, Chicago, IL",
+    "phone": "+1-312-555-9012",
+    "website": "https://www.swiftlogistics.com",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Swift_Transportation_logo.png",
+    "membershipLevel": 1,
+    "industry": "Logistics",
+    "founded": 1998
+  },
+  {
+    "name": "FinTrust Bank",
+    "address": "101 Financial Ave, New York, NY",
+    "phone": "+1-212-555-3456",
+    "website": "https://www.fintrust.com",
+    "image": "https://fintrustcontinentalbank.com/wp-content/uploads/2023/03/logo.png",
+    "membershipLevel": 3,
+    "industry": "Banking & Finance",
+    "founded": 1985
+  },
+  {
+    "name": "Healthy Bites Catering",
+    "address": "222 Gourmet St, Los Angeles, CA",
+    "phone": "+1-323-555-7890",
+    "website": "https://www.healthybitescatering.com",
+    "image": "https://healthybitesstore.com/storage/settings/OxflAm82DQ9J7k62Z3KAHGVCDah8neNTg8IJFzMx.png",
+    "membershipLevel": 1,
+    "industry": "Food & Catering",
+    "founded": 2015
+  },
+  {
+    "name": "Pixel Creatives",
+    "address": "333 Design Blvd, Seattle, WA",
+    "phone": "+1-206-555-2345",
+    "website": "https://www.pixelcreatives.com",
+    "image": "https://mir-s3-cdn-cf.behance.net/user/276/b82f623139549.5f427bec98aac.png",
+    "membershipLevel": 2,
+    "industry": "Graphic Design & Marketing",
+    "founded": 2012
+  },
+  {
+    "name": "AutoPro Mechanics",
+    "address": "444 Engine Road, Detroit, MI",
+    "phone": "+1-313-555-6789",
+    "website": "https://www.autopromechanics.com",
+    "image": "https://autoprousa.com/cdn/shop/files/kDxGf2wQ_76bb8616-959d-4c5e-afb0-4aa1b5bd307d.png?v=1698272923&width=600",
+    "membershipLevel": 3,
+    "industry": "Automotive Services",
+    "founded": 2000
+  }
+]

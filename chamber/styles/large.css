@@ -1,4 +1,4 @@
-@media only screen and (min-width: 21.9em) {
+@media only screen and (min-width: 470px) {
 
     .navigation {
         display: flex;
@@ -16,7 +16,6 @@
     #menu {
         display: none;
     }
-
 
     header{
         display: grid;
@@ -52,7 +51,7 @@
         width: 90%;
     }
 
-    div.members-cards{
+    article.members-cards{
         display: grid;
         grid-template-columns: 50% 50%;
         width: 90%;
@@ -60,8 +59,20 @@
         gap: 1em;
     }
 
-    .userCard{
-        padding: 1em;
+    article.memberCard{
+        padding: 0.8em;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    article.list.address{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list div img {
+        display: flex;
+        width: 10%;
     }
 
     footer {
@@ -86,10 +97,22 @@
         width: 90%;
     }
 
-    div.members-cards{
+    article.members-cards{
         display: grid;
         grid-template-columns: 32% 32% 32%;
-        
+        gap: 1em;
+    }
+
+    .list div .phone{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .list div .founded{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     footer {

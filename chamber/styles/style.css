@@ -1,8 +1,10 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Header Styling */
 header {
     background: #174e70;
     color: #fff;
@@ -13,7 +15,6 @@ header {
 
 .headerContent {
     display: flex;
-
     gap: 1em;
     text-align: left;
     justify-content: left;
@@ -32,7 +33,7 @@ header {
     max-width: 15%;
 }
 
-/* nav styling */
+/* Navigation Styling */
 .navigationBar {
     background: #174e70;
 }
@@ -90,11 +91,10 @@ header {
     content: "x";
 }
 
-/*Body*/
+/* Body Styling */
 main {
     margin: 0 auto;
     align-items: center;
-
 }
 
 section.hero-image {
@@ -127,7 +127,7 @@ section.hero-image a {
     border-radius: 0.3em;
 }
 
-/* middle-box */
+/* Middle Box Styling */
 .middle-header {
     padding-top: 0.3em;
     font-family: "Roboto";
@@ -144,7 +144,7 @@ section.middle-box {
 
 .events p {
     padding: 1em;
-    overflow: hidden; 
+    overflow: hidden;
     word-wrap: break-word;
 }
 
@@ -153,7 +153,6 @@ div.weather,
 div.forecast {
     border: 2px solid #174e70;
     border-radius: 5px;
-
 }
 
 div.events h2,
@@ -163,7 +162,7 @@ div.forecast h2 {
     padding: 0.5em;
     font-size: 1.2em;
     color: white;
-    overflow: hidden; /* Oculta el desbordamiento */
+    overflow: hidden;
     word-wrap: break-word;
 }
 
@@ -172,65 +171,123 @@ div.forecast-details {
     padding: 1em;
 }
 
-div.forecast-box{
+div.forecast-box {
     display: grid;
     grid-template-columns: 40% 50%;
 }
 
-div.forecast-box img{
-   width: 70%;
-   padding: 1em;
-}
-
-
-/* members-box */
-div.members-cards {
-    display: grid;
-    grid-template-columns: 1fr;
+div.forecast-box img {
+    width: 70%;
     padding: 1em;
-    gap: 1em;
-
 }
 
-.userCard {
-    text-align: center;
-    background-color: lightgray;
-    border-radius: 5px;
+/* Members Box Styling */
+.members-cards {
+    display: flex;
+    padding: 1em;
+    width: 90%;
     margin: 0 auto;
-    width: 80%;
-    padding: 0.5em;
+    gap: 1em;
+    flex-wrap: wrap;
 }
 
-.userCard h3 {
-    font-family: "Pacifico", cursive;
-    font-size: 1.5em;
+.memberCard {
+    text-align: center;
+    background-color: #1b8fd817;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
-.userCard h4 {
+.memberCard h3 {
+    font-family: "Pacifico", serif;
+    font-size: 1.2em;
+}
+
+.memberCard h4 {
     font-family: "roboto", serif;
     font-size: 0.7em;
     padding: 2%;
 }
 
-.userCard hr {
-    width: 70%;
+.memberCard hr {
+    width: 80%;
     margin: 0 auto;
 }
 
-.userCard img {
+.memberCard img {
     width: 50%;
     padding: 0.5rem;
-    border-radius: 10px;
 }
 
-.userCard p {
+.memberCard p {
     text-align: left;
     font-size: 90%;
-    overflow: hidden; 
+    overflow: hidden;
     word-wrap: break-word;
 }
 
-/* Footer styling */
+/* Grid Styling */
+.menu {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.menu button {
+    padding: 1rem;
+    font-weight: 700;
+}
+
+/* List Styling */
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.list h3{
+    font-family: 'roboto', sans-serif;
+    font-size: 90%;
+}
+
+.list .memberCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    gap: 1em;
+}
+
+.list div p{
+    gap: 1em;
+}
+
+.list div img,.list div .address,.list div .phone,.list div .url,.list div .founded {
+    display: none;
+}
+
+.list div:nth-child(even) {
+	background-color: white;
+}
+
+.list div.memberCard{
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 0;
+}
+
+article.members-cards.list{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 80%;
+}
+
+/* Footer Styling */
 footer {
     background: #174e70;
     color: white;
