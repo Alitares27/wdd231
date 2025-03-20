@@ -75,6 +75,32 @@
         width: 10%;
     }
 
+section .believe-data{
+    display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1rem;
+}
+
+.believe-data img{
+    width: 50%;
+}
+
+    .list div .phone{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .list div .founded{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+}
+
     footer {
         display: grid;
         grid-template-columns: 50% 50%;

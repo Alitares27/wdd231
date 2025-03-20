@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -36,7 +36,7 @@
                     <ul class="navigation">
                         <li><a href="/chamber/index.html">Home</a></li>
                         <li><a href="/chamber/directory.html">Directory</a></li>
-                        <li><a href="#">Join</a></li>
+                        <li><a href="/chamber/join.html">Join</a></li>
                         <li><a href="#">Discover</a></li>
                     </ul>
                 </nav>
@@ -48,21 +48,21 @@
         <section class="hero-image">
 
             <img 
-            src="images/rosario.webp" 
-            srcset="images/rosarioSm.webp 450w, 
-                    images/rosarioMd.webp 700w, 
-                    images/rosarioLg.webp 1000w" 
+            src="images/rosarioArq.webp" 
+            srcset="images/rosarioArqSm.webp 450w, 
+                    images/rosarioArqMd.webp 700w, 
+                    images/rosarioArqLg.webp 1000w" 
             sizes="(max-width: 600px) 450px, 
                    (max-width: 900px) 700px, 
                    1000px"
             alt="hero rosario" 
             loading="lazy">
         
-                <p><a href="#">Keynote Tickets</a></p>
+                <p><a href="/chamber/join.html">Keynote Tickets</a></p>
 
         </section>
         <section class="middle-box">
-            <h1 class="middle-header">Directory</h1>
+            <h1 class="middle-header">Home</h1>
             <div class="events">
                 <h2>Events</h2>
                 <div>
@@ -72,13 +72,13 @@
             <div class="weather">
                 <h2>Current Weather</h2>
                 <div class="weather-details">
-                    <strong>75° F</strong>
-                    <p>Party Cloudy</p>
-                    <p>High: 85°</p>
-                    <p>Low: 52°</p>
-                    <p>Humidity: 34%</p>
-                    <p>Sunrise: 7:30am</p>
-                    <p>Sunset: 9:59pm</p>
+                    <strong id="temperature">75° F</strong>
+                    <p><span id="weatherDescription">Party Cloudy</span></p>
+                    <p>High: <span id="highTemp"></span></p>
+                    <p>Low: <span id="lowTemp"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Sunrise: <span id="sunrise"></span></p>
+                    <p>Sunset: <span id="sunset"></span></p>
                 </div>
                 
             </div>
@@ -86,12 +86,12 @@
                 <h2>Weather Forecast</h2>
                 <div class="forecast-box">
                     <div class="forecast-image">
-                        <img src="images/cloudy.webp" alt="weather Icon" loading="lazy">
+                        <img id="forecastIcon" src="images/cloudy.webp" alt="weather Icon" loading="lazy">
                     </div>
                     <div class="forecast-details">
-                        <p>Today: <strong>90°F</strong> </p>
-                        <p>Wednesday: <strong>89°F</strong></p>
-                        <p>Thursday: <strong>68°F</strong></p>
+                        <p>Today: <strong id="today">90°F</strong> </p>
+                        <p>Tomorrow: <strong id="tomorrow">89°F</strong></p>
+                        <p>After Tomorrow: <strong id="afterTomorrow">68°F</strong></p>
                     </div>
                 </div>
                 
@@ -99,16 +99,13 @@
             </div>
         </section>
 
-        <section class="members-box">
-            <div class="menu">
-                <button id="grid">⏹️Grid</button>
-                <button id="list">📄List</button>
-            </div>
-            <hr>
-            <article class="members-cards">
-                
-            </article>
-
+        <section class="believe">
+            <figure class="believe-data">
+                <img src="images/believe.webp" alt="our mission" loading="lazy">
+                <figcaption>
+                    <h2 class="mission">Our Mission</h2>
+                    <p class="missionDesc">Our mission is to provide the best resources for businesses in Rosario. We believe that by providing the best resources, we can help businesses grow and thrive in our community.</p>
+            </figure>
         </section>
 
 
@@ -137,6 +134,7 @@
     <script src="../scripts/dates.js" defer></script>
     <script src="../scripts/navigation.js" defer></script>
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </body>
 
 </html>

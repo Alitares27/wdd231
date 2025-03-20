@@ -168,7 +168,7 @@ div.forecast h2 {
 
 div.weather-details,
 div.forecast-details {
-    padding: 1em;
+    padding: 0.5em;
 }
 
 div.forecast-box {
@@ -177,8 +177,8 @@ div.forecast-box {
 }
 
 div.forecast-box img {
-    width: 70%;
-    padding: 1em;
+    width: 100%;
+    padding: 0.5em;
 }
 
 /* Members Box Styling */
@@ -285,6 +285,21 @@ article.members-cards.list{
     flex-direction: column;
     gap: 0;
     width: 75%;
+}
+
+
+section .believe-data h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+section .believe-data p{
+    font-family: "roboto", serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Footer Styling */
