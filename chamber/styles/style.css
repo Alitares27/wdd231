@@ -97,19 +97,19 @@ main {
     align-items: center;
 }
 
-section.hero-image {
+div.hero-image {
     text-align: center;
     position: relative;
 }
 
-section.hero-image img {
+div.hero-image img {
     width: 99%;
     height: auto;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-section.hero-image p {
+div.hero-image p {
     position: absolute;
     top: 75%;
     right: 5%;
@@ -118,7 +118,7 @@ section.hero-image p {
     font-family: "Roboto";
 }
 
-section.hero-image a {
+div.hero-image a {
     text-decoration: none;
     font-weight: 900;
     color: white;
