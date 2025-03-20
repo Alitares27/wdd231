@@ -181,6 +181,17 @@ div.forecast-box img {
     padding: 0.5em;
 }
 
+
+.believe-data img{
+    width: 99%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.believe-data h2{
+    text-align: center;
+}
+
 /* Members Box Styling */
 .members-cards,.members-level-cards {
     display: flex;
@@ -252,15 +263,18 @@ div.forecast-box img {
     font-size: 90%;
 }
 
-.list .memberCard {
+.list .memberCard,.list .memberLevelCard {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    width: 90%;
     margin: 0 auto;
     padding: 1em;
     gap: 1em;
 }
+
+
 
 .list div p{
     gap: 1em;
