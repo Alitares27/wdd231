@@ -17,12 +17,12 @@
         display: none;
     }
 
-    header{
+    header {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .navigationBar{
+    .navigationBar {
         background-color: black;
     }
 
@@ -40,7 +40,7 @@
         grid-column: span 3;
     }
 
-    div.events{
+    div.events {
         display: none;
     }
 
@@ -51,7 +51,8 @@
         width: 90%;
     }
 
-    article.members-cards{
+    article.members-cards,
+    article.members-level {
         display: grid;
         grid-template-columns: 50% 50%;
         width: 90%;
@@ -59,13 +60,14 @@
         gap: 1em;
     }
 
-    article.memberCard{
+    article.memberCard,
+    article.memberLevelCard {
         padding: 0.8em;
         margin: 0 auto;
         text-align: center;
     }
 
-    article.list.address{
+    article.list.address {
         display: flex;
         flex-direction: row;
     }
@@ -75,47 +77,47 @@
         width: 10%;
     }
 
-section .believe-data{
-    display: flex;
+    section .believe-data {
+        display: flex;
         flex-direction: row;
         column-gap: 1rem;
         align-items: center;
         margin: 0 auto;
         text-align: center;
         padding: 1rem;
-}
+    }
 
-.believe-data img{
-    width: 50%;
-}
+    .believe-data img {
+        width: 50%;
+    }
 
-    .list div .phone{
+    .list div .phone {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
-    .list div .founded{
+    .list div .founded {
         display: flex;
         flex-direction: column;
         text-align: center;
-}
+    }
 
     footer {
         display: grid;
         grid-template-columns: 50% 50%;
     }
 
-    div.socialMedia{
+    div.socialMedia {
         display: none;
     }
 }
 
 @media only screen and (min-width: 750px) {
-    div.events{
+    div.events {
         display: inline;
     }
-    
+
     section.middle-box {
         display: grid;
         grid-template-columns: 50% 25% 25%;
@@ -123,19 +125,20 @@ section .believe-data{
         width: 90%;
     }
 
-    article.members-cards{
+    article.members-cards,
+    article.members-level {
         display: grid;
         grid-template-columns: 32% 32% 32%;
         gap: 1em;
     }
 
-    .list div .phone{
+    .list div .phone {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
-    .list div .founded{
+    .list div .founded {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -143,10 +146,10 @@ section .believe-data{
 
     footer {
         display: grid;
-        grid-template-columns: 32% 32% 32%; 
+        grid-template-columns: 32% 32% 32%;
     }
 
-    div.socialMedia{
+    div.socialMedia {
         display: flex;
     }
 }

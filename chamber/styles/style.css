@@ -182,7 +182,7 @@ div.forecast-box img {
 }
 
 /* Members Box Styling */
-.members-cards {
+.members-cards,.members-level-cards {
     display: flex;
     padding: 1em;
     width: 90%;
@@ -191,7 +191,7 @@ div.forecast-box img {
     flex-wrap: wrap;
 }
 
-.memberCard {
+.memberCard,.memberLevelCard {
     text-align: center;
     background-color: #1b8fd817;
     border-radius: 0.3rem;
@@ -199,18 +199,18 @@ div.forecast-box img {
     padding: 1rem;
 }
 
-.memberCard h3 {
+.memberCard h3,.memberLevelCard h3 {
     font-family: "Pacifico", serif;
     font-size: 1.2em;
 }
 
-.memberCard h4 {
+.memberCard h4,.memberLevelCard h4 {
     font-family: "roboto", serif;
     font-size: 0.7em;
     padding: 2%;
 }
 
-.memberCard hr {
+.memberCard hr ,.memberLevelCard hr{
     width: 80%;
     margin: 0 auto;
 }
@@ -220,7 +220,7 @@ div.forecast-box img {
     padding: 0.5rem;
 }
 
-.memberCard p {
+.memberCard p,.memberLevelCard p {
     text-align: left;
     font-size: 90%;
     overflow: hidden;

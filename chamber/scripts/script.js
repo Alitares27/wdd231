@@ -25,7 +25,34 @@ async function fetchMembers() {
     }
 }
 
+const levelContainer = document.querySelector(".members-level-cards");
+
+async function fetchMembersbyLevel() {
+    try {
+        const response = await fetch("../chamber/data/members.json");
+        const membersLevel = await response.json();
+
+        const levelThreeMembers = membersLevel.filter(member => member.membershipLevel === 3);
+
+        levelContainer.innerHTML = "";
+        levelThreeMembers.forEach(memberLevel => {
+            const memberLevelCard = document.createElement("div");
+            memberLevelCard.classList.add("memberLevelCard");
+            memberLevelCard.innerHTML = `
+                <h3>${memberLevel.name}</h3>
+                <h4 class="industry">${memberLevel.industry}</h4>
+                <p class="phone"><strong>PHONE: </strong>${memberLevel.phone}</p>
+                <p class="founded"><strong>FOUNDED: </strong>${memberLevel.founded}</p>
+            `;
+            levelContainer.appendChild(memberLevelCard);
+        });
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+}
+
 fetchMembers();
+fetchMembersbyLevel();
 
 //filters
 const gridbutton = document.querySelector("#grid");
