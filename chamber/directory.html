@@ -72,13 +72,13 @@
             <div class="weather">
                 <h2>Current Weather</h2>
                 <div class="weather-details">
-                    <strong>75° F</strong>
-                    <p>Party Cloudy</p>
-                    <p>High: 85°</p>
-                    <p>Low: 52°</p>
-                    <p>Humidity: 34%</p>
-                    <p>Sunrise: 7:30am</p>
-                    <p>Sunset: 9:59pm</p>
+                    <strong id="temperature">75° F</strong>
+                    <p><span id="weatherDescription">Party Cloudy</span></p>
+                    <p>High: <span id="highTemp"></span></p>
+                    <p>Low: <span id="lowTemp"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Sunrise: <span id="sunrise"></span></p>
+                    <p>Sunset: <span id="sunset"></span></p>
                 </div>
                 
             </div>
@@ -86,12 +86,12 @@
                 <h2>Weather Forecast</h2>
                 <div class="forecast-box">
                     <div class="forecast-image">
-                        <img src="images/cloudy.webp" alt="weather Icon" loading="lazy">
+                        <img id="forecastIcon" src="images/cloudy.webp" alt="weather Icon" loading="lazy">
                     </div>
                     <div class="forecast-details">
-                        <p>Today: <strong>90°F</strong> </p>
-                        <p>Wednesday: <strong>89°F</strong></p>
-                        <p>Thursday: <strong>68°F</strong></p>
+                        <p>Today: <strong id="today">90°F</strong> </p>
+                        <p>Tomorrow: <strong id="tomorrow">89°F</strong></p>
+                        <p>After Tomorrow: <strong id="afterTomorrow">68°F</strong></p>
                     </div>
                 </div>
                 
@@ -137,6 +137,7 @@
     <script src="../scripts/dates.js" defer></script>
     <script src="../scripts/navigation.js" defer></script>
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </body>
 
 </html>

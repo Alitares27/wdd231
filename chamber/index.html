@@ -15,9 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preload" href="images/rosarioArqLg.webp" as="image">
+    <link rel="stylesheet" href="styles/normalize.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="styles/style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="styles/large.css" media="print" onload="this.media='all'">
 </head>
 
 <body>
@@ -46,20 +47,18 @@
 
     <main>
         <div class="hero-image">
-
             <img 
-            src="images/rosarioArq.webp" 
-            srcset="images/rosarioArqSm.webp 450w, 
-                    images/rosarioArqMd.webp 700w, 
-                    images/rosarioArqLg.webp 1000w" 
-            sizes="(max-width: 600px) 450px, 
-                   (max-width: 900px) 700px, 
-                   1000px"
-            alt="hero rosario" 
-            loading="lazy">
-        
-                <p><a href="/chamber/join.html">Keynote Tickets</a></p>
-
+                src="images/rosarioArqLg.webp" 
+                srcset="images/rosarioArqSm.webp 450w, 
+                        images/rosarioArqMd.webp 700w, 
+                        images/rosarioArqLg.webp 1000w" 
+                sizes="(max-width: 600px) 450px, 
+                       (max-width: 900px) 700px, 
+                       1000px"
+                alt="hero rosario" 
+                width="1000" 
+                height="600">
+            <p><a href="/chamber/join.html">Keynote Tickets</a></p>
         </div>
         <section class="middle-box">
             <h1 class="middle-header">Home</h1>

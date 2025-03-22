@@ -1,5 +1,5 @@
 //fetch API 
-fetch('http://api.openweathermap.org/data/2.5/forecast?lat=-32.9468&lon=-60.6393&appid=fca0ae130e4059093aa3a8901b2f4934')
+fetch('https://api.openweathermap.org/data/2.5/forecast?lat=-32.9468&lon=-60.6393&appid=fca0ae130e4059093aa3a8901b2f4934')
   .then(response => response.json())
   //.then(data => console.log(data))
   .then(data => displayWeather(data))
@@ -52,7 +52,7 @@ function displayWeather(data) {
     humidity.innerHTML = humidityValue + '%';
     sunrise.innerHTML = sunriseValue;
     sunset.innerHTML = sunsetValue;
-    forecastIcon.src = `http://openweathermap.org/img/w/${icon}.png`;
+    forecastIcon.src = `https://openweathermap.org/img/w/${icon}.png`;
     today.innerHTML = tempCelsius + ' °C';
     tomorrow.innerHTML = tempCelTom + ' °C';
     afterTomorrow.innerHTML = tempCelAftTom + ' °C';
@@ -60,4 +60,3 @@ function displayWeather(data) {
     temperature.innerHTML = 'Unable to retrieve temperature data.';
   }
 }
-
