@@ -48,97 +48,104 @@
         </div>
     </header>
     <br>
-    <main class="form-and-levels">
-
-        <section class="registration-form">
-            <h2>Join the Chamber of Commerce</h2>
-            <form action="thankyou.html" method="GET">
-
-                <div class="form-group">
-                    <label for="firstname">First Name:</label>
-                    <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name"
-                        autocomplete="given-name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="lastname">Last Name:</label>
-                    <input type="text" id="lastname" name="lastname" placeholder="Enter your Last Name"
-                        autocomplete="family-name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="organizationTitle">Applicant's Organizational Title:</label>
-                    <input type="text" id="organizationTitle" name="organizationTitle" placeholder="Enter your title"
-                        pattern="[A-Za-z\s\-]{7,}" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="businessName">Business Name:</label>
-                    <input type="text" id="businessName" name="businessName" placeholder="Enter your business name"
-                        required>
-                </div>
-
-                <div class="form-group">
-                    <label for="membershipLevel">Membership Level:</label>
-                    <select id="membershipLevel" name="membershipLevel" required>
-                        <option value="" disabled selected>Select your membership level</option>
-                        <option value="np">NP Membership (No fee, for non-profit organizations)</option>
-                        <option value="bronze">Bronze Membership</option>
-                        <option value="silver">Silver Membership</option>
-                        <option value="gold">Gold Membership</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="businessDescription">Business/Organization's Description:</label>
-                    <textarea id="businessDescription" name="businessDescription"
-                        placeholder="Describe your business or organization" rows="4" required></textarea>
-                </div>
-
-                <input type="hidden" id="timestamp" name="timestamp">
-
-                <button class="formBtn" type="submit">Submit</button>
-            </form>
+    <main>
+        <section class="middle-box">
+            <h1 class="middle-header">Join</h1>
         </section>
 
-        <section class="membership-levels">
-            <h2>Membership Levels</h2>
-            <div class="card-container">
-                <div class="card">
-                    <h3>NP Membership</h3>
-                    <button class="details-btn" data-index="0">View Details</button>
+        <div class="form-and-levels">
+
+            <section class="registration-form">
+                <h2>Join the Chamber of Commerce</h2>
+                <form action="thankyou.html" method="GET">
+
+                    <div class="form-group">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name"
+                            autocomplete="given-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Enter your Last Name"
+                            autocomplete="family-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="organizationTitle">Applicant's Organizational Title:</label>
+                        <input type="text" id="organizationTitle" name="organizationTitle"
+                            placeholder="Enter your title" pattern="[A-Za-z\s\-]{7,}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="businessName">Business Name:</label>
+                        <input type="text" id="businessName" name="businessName" placeholder="Enter your business name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="membershipLevel">Membership Level:</label>
+                        <select id="membershipLevel" name="membershipLevel" required>
+                            <option value="" disabled selected>Select your membership level</option>
+                            <option value="np">NP Membership (No fee, for non-profit organizations)</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="businessDescription">Business/Organization's Description:</label>
+                        <textarea id="businessDescription" name="businessDescription"
+                            placeholder="Describe your business or organization" rows="4" required></textarea>
+                    </div>
+
+                    <input type="hidden" id="timestamp" name="timestamp">
+
+                    <button class="formBtn" type="submit">Submit</button>
+                </form>
+
+
+            </section>
+
+            <section class="membership-levels">
+                <h2>Membership Levels</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <h3>NP Membership</h3>
+                        <button class="details-btn" data-index="0">View Details</button>
+                    </div>
+                    <div class="card">
+                        <h3>Bronze Membership</h3>
+                        <button class="details-btn" data-index="1">View Details</button>
+                    </div>
+                    <div class="card">
+                        <h3>Silver Membership</h3>
+                        <button class="details-btn" data-index="2">View Details</button>
+                    </div>
+                    <div class="card">
+                        <h3>Gold Membership</h3>
+                        <button class="details-btn" data-index="3">View Details</button>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Bronze Membership</h3>
-                    <button class="details-btn" data-index="1">View Details</button>
-                </div>
-                <div class="card">
-                    <h3>Silver Membership</h3>
-                    <button class="details-btn" data-index="2">View Details</button>
-                </div>
-                <div class="card">
-                    <h3>Gold Membership</h3>
-                    <button class="details-btn" data-index="3">View Details</button>
-                </div>
-            </div>
-        </section>
-            
+            </section>
+        </div>
         <div id="membershipModal" class="membModal">
             <div class="membModalContent">
-                
+
             </div>
         </div>
-           
+
     </main>
 
     <footer>
