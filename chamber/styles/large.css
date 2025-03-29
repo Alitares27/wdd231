@@ -152,4 +152,19 @@
     div.socialMedia {
         display: flex;
     }
+
+    .form-and-levels{
+        display: grid;
+        grid-template-columns: 45% 55%;
+        margin: 0 auto;
+        width: 98%;
+    }
+
+    .form-and-levels h2{
+        text-align: center;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
 }

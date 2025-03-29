@@ -1,5 +1,4 @@
 const container = document.querySelector(".members-cards");
-
 async function fetchMembers() {
     try {
         const response = await fetch("../chamber/data/members.json");
@@ -70,4 +69,5 @@ function showList() {
     display.classList.add("list");
     display.classList.remove("grid");
 }
+
 
