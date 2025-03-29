@@ -79,7 +79,6 @@ function addDialogEvents() {
         });
         });
     };
-    console.log(memberships);
 
     window.addEventListener("click", (event) => {
         if (event.target === membershipModal) {
