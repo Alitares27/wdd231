@@ -30,7 +30,6 @@ if (thankyouDetailsElement) {
 
     thankyouDetailsElement.innerHTML = `
         <br>
-        <h2>Thank you for joining, ${firstname} ${lastname}</h2>
         <p>Here are the details you provided:</p>
         <p><strong>Firstname:</strong> <span id="firstname">${firstname}</span></p>
         <p><strong>Lastname:</strong> <span id="lastname">${lastname}</span></p>
