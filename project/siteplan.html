@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Site plan of a bookstore website, with the structure and navigation of the pages.">
+    <meta name="author" content="Aldair Payehuanca Arias">
+    <title>Site Plan - Aldair Payehuanca</title>
+    <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+
+    <header>
+        <figure class="headerText">
+            <img class="headerimage" src="images/nestBook.webp" loading="lazy" alt="nestBook_logo" width="250">
+            <figcaption>NestBook Store</figcaption>
+        </figure>
+        <div class="navBar">
+            <a id="menu" href="#" aria-label="Open the navigation menu"></a>
+            <div class="navigationBar">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Store</a></li>
+                        <li><a href="siteplan.html">Site Plan</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="mainHeader">Site Plan</h1>
+
+        <section class="identity">
+            <div class="siteName">
+                <h2>Site Name: </h2>
+                <p>NestBook Store</p>
+            </div>
+
+            <figure class="siteLogo">
+                <img src="images/nestBook.webp" alt="nestBook_logo" width="512">
+                <figcaption>“BookNest” combines the words "Book" and "Nest", 
+                    creating the idea of a cozy place where book lovers can discover, 
+                    explore and buy books. </figcaption>
+            </figure>
+
+            <div class="sitePurpose">
+                <h2>Site Purpose: </h2>
+                <p>The website serves as an online bookstore that allows visitors
+                    to explore and purchase a wide variety of books.
+                    It provides detailed information on different book categories,
+                    recommendations for readers, and special promotions.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="Scenarios">
+            <h2>Scenarios: </h2>
+            <div>
+                <h3>Which books are best for beginners who want to start reading fiction?</h3>
+                <p>A visitor is looking for recommendations on books
+                    that are easy to read and engaging for someone new to reading fiction.</p>
+            </div>
+
+            <div>
+                <h3>How can I find discounted books or special promotions on the website?</h3>
+                <p>A customer wants to know if there are ongoing discounts,
+                    seasonal promotions, or a section for affordable books.</p>
+            </div>
+
+            <div>
+                <h3>Do you offer digital books or only physical copies?</h3>
+                <p>A visitor is interested in knowing if they can buy e-books in addition to printed books.</p>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="branding">
+            <div>
+                <h2>Color Schema: </h2>
+                <table class="colors">
+                    <tr>
+                        <th>Primary</th>
+                        <th>Secondary</th>
+                        <th>Accent 1</th>
+                        <th>Accent 2</th>
+                    </tr>
+                    <tr>
+                        <td class="primary">[#31594c]</td>
+                        <td class="secondary">[#223f35]</td>
+                        <td class="accent1">[#4c8c76]</td>
+                        <td class="accent2">[#60b296]</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <h2>Typography</h2>
+                <h3 class="titles">Title</h3>
+                <p class="paragraphs">paragraph</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="wireframe">
+            <h2>Wireframes</h2>
+            <div class="wireframeImages">
+                <img class="lgwireframe" src="images/lgwireframe.webp" alt="large wireframe" width="512">
+                <img class="smwireframe" src="images/smwireframe.webp" alt="mobile wireframe" height="512">
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> NestBook Store || Aldair Payehuanca Arias</p>
+        <p class="lastMod">Last modification: <span id="modification"></span></p>
+    </footer>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+</body>
+
+</html>

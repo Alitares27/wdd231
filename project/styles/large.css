@@ -1,0 +1,44 @@
+@media only screen and (min-width: 40em) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .navigationBar{
+        background-color: var(--secondary-color);
+    }
+
+    nav {
+        position: unset;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+/* Branding */
+
+    .wireframeImages {
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+}
