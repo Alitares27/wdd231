@@ -1,4 +1,4 @@
-@media only screen and (min-width: 470px) {
+@media only screen and (min-width: 641px) {
 
     .navigation {
         display: flex;
@@ -111,6 +111,14 @@
     div.socialMedia {
         display: none;
     }
+
+/* Discover */
+.placesContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+}
+
 }
 
 @media only screen and (min-width: 750px) {
@@ -167,4 +175,20 @@
         font-size: 1.5rem;
         padding: 0.5rem;
     }
+
+    /* Discover */
+.placesContainer{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+}
+
+.placesContainer img {
+    width: 90%;
+    max-width: 750px;
+    transition: transform 0.3s ease;
+  }
+
+  .placeCard:hover img {
+    transform: scale(1.1); 
+  }
 }

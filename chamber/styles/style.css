@@ -531,3 +531,88 @@ h2 {
     width: 90%;
     margin: 0 auto;
 }
+
+
+/* Discover */
+h1.middle-header{
+    padding-left: 1rem;
+    font-family: "pacifico", cursive;
+    font-weight: 400;
+}
+
+.message{
+  width: 100%;
+  background: #0057b356; /* rojo alerta */
+  color: black;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.placeCard{
+    background: #ffffff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.placesContainer{
+    display: grid;
+    padding: 1.5rem;
+    gap: 1em;
+}
+
+.placesContainer img{
+    width: 90%;
+    max-width: 640px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.placesContainer h2{
+    text-align: center;
+    font-family: "roboto", serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.placesContainer p{
+    text-align: center;
+    font-family: "roboto", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.placebtn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 8px;
+    background-color: #174e70;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .placebtn:hover {
+    background-color: #333;
+  }
+  
+  .placebtn-outline {
+    background-color: transparent;
+    color: #111;
+    border: 2px solid #111;
+  }
+  
+  .placebtn-outline:hover {
+    background-color: #111;
+    color: white;
+  }

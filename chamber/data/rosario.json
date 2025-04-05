@@ -1,0 +1,50 @@
+[
+    {
+        "name": "National Flag Memorial",
+        "description": "Iconic monument that pays tribute to the Argentine flag and is a symbolic landmark of the city.",
+        "location": "Santa Fe 581, Rosario, Argentina",
+        "image": "https://rosario.tur.ar/uploads/atractivos/img/FHfTKFf5NlEGJoO9Ld56mJqKt.webp"
+    },
+    {
+        "name": "El Círculo Theater",
+        "description": "Historic theater known for its architecture and exceptional acoustics, hosting various artistic performances.",
+        "location": "Laprida 1223, Rosario, Argentina",
+        "image": "https://rosario.tur.ar/uploads/atractivos/img/fEIMkjsXp5hAAejlBdeZc622q.webp"
+    },
+    {
+        "name": "Independence Park",
+        "description": "The largest park in Rosario, ideal for outdoor walks and recreational activities.",
+        "location": "Av. Pellegrini 1901, Rosario, Argentina",
+        "image": "https://www.rosario.tur.ar/uploads/atractivos/img/O1DIIdwyledfut0rj8rtB6ADl.webp"
+    },
+    {
+        "name": "Juan B. Castagnino Fine Arts Museum",
+        "description": "Museum housing an outstanding collection of Argentine and European art, located in Independence Park.",
+        "location": "Av. Pellegrini 2202, Rosario, Argentina",
+        "image": "https://rosario.tur.ar/uploads/atractivos/img/U5eYCyVouvMbWeSpg4BFwJ4kK.webp"
+    },
+    {
+        "name": "La Florida Beach",
+        "description": "Popular beach on the banks of the Paraná River, perfect for enjoying the sun and water activities.",
+        "location": "Av. Eduardo Carrasco 2350, Rosario, Argentina",
+        "image": "https://rosario.tur.ar/uploads/atractivos/img/7M7aoVbViqaMGAIJ6enwpO4oM.webp"
+    },
+    {
+        "name": "Museum of Contemporary Art of Rosario (MACRO)",
+        "description": "Located in former silos, it showcases contemporary art and offers panoramic views of the city.",
+        "location": "Bv. Oroño y el Río Paraná, Rosario, Argentina",
+        "image": "https://rosario.tur.ar/uploads/atractivos/img/Qs8KiT3wZ9uGgsZeBLfgIqGYE.webp"
+    },
+    {
+        "name": "Roberto Fontanarrosa Cultural Center",
+        "description": "Space dedicated to culture and art, with exhibitions, workshops, and events honoring the graphic humorist.",
+        "location": "San Martín 1080, Rosario, Argentina",
+        "image": "https://rosario.tur.ar/uploads/atractivos/img/WVKGoGG1MLpbUTwX9YV5LTfao.webp"
+    },
+    {
+        "name": "Parque de España",
+        "description": "Park along the Paraná River, featuring gardens, sculptures, and cultural spaces for events and exhibitions.",
+        "location": "Av. del Huerto 1198, Rosario, Argentina",
+        "image": "https://statics.guiaturista.com.ar/2023/03/crop/20e1775da2f8bb3b65aff22b51b8b66e__1050x560.webp"
+    }
+]
