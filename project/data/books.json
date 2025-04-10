@@ -1,0 +1,450 @@
+[
+  {
+    "name": "One Hundred Years of Solitude",
+    "genre": "Magical Realism",
+    "price": 14.99,
+    "author": "Gabriel García Márquez",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_695991-MLA50213057355_062022-O.webp",
+    "description": "A family saga in the magical town of Macondo, blending reality and fantasy."
+  },
+  {
+    "name": "1984",
+    "genre": "Dystopia",
+    "price": 12.99,
+    "author": "George Orwell",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_989083-MLA77481963426_072024-O.webp",
+    "description": "A dystopian novel about a totalitarian regime that controls every aspect of life."
+  },
+  {
+    "name": "Don Quixote",
+    "genre": "Classic",
+    "price": 18.99,
+    "author": "Miguel de Cervantes",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_630849-MLA52642394777_112022-O.webp",
+    "description": "The adventures of a mad knight who confuses reality with fiction."
+  },
+  {
+    "name": "The Little Prince",
+    "genre": "Fable",
+    "price": 9.99,
+    "author": "Antoine de Saint-Exupéry",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_834972-MLA53687828033_022023-O.webp",
+    "description": "A philosophical tale about a prince who travels the universe learning about life."
+  },
+  {
+    "name": "To Kill a Mockingbird",
+    "genre": "Fiction",
+    "price": 15.99,
+    "author": "Harper Lee",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_634842-MLA49444892340_032022-O.webp",
+    "description": "A young girl narrates the fight against racism in the American South."
+  },
+  {
+    "name": "Pride and Prejudice",
+    "genre": "Romance",
+    "price": 10.99,
+    "author": "Jane Austen",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_899732-MLA72637385709_112023-O.webp",
+    "description": "A love story between Elizabeth Bennet and the proud Mr. Darcy."
+  },
+  {
+    "name": "The Great Gatsby",
+    "genre": "Tragedy",
+    "price": 14.99,
+    "author": "F. Scott Fitzgerald",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_679704-MLA75493614278_042024-O.webp",
+    "description": "A mysterious millionaire seeks to reclaim a lost love during the Roaring Twenties."
+  },
+  {
+    "name": "Moby Dick",
+    "genre": "Adventure",
+    "price": 17.99,
+    "author": "Herman Melville",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_824971-MLA41787611883_052020-O.webp",
+    "description": "Captain Ahab's obsessive quest for the white whale."
+  },
+  {
+    "name": "War and Peace",
+    "genre": "Historical Fiction",
+    "price": 20.99,
+    "author": "Leo Tolstoy",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_712515-MLA49438401483_032022-O.webp",
+    "description": "An epic portrait of Russian society during the Napoleonic Wars."
+  },
+  {
+    "name": "The Catcher in the Rye",
+    "genre": "Fiction",
+    "price": 12.99,
+    "author": "J.D. Salinger",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_981078-MLA76708800799_052024-O.webp",
+    "description": "A rebellious teenager recounts his experiences in New York."
+  },
+  {
+    "name": "Brave New World",
+    "genre": "Dystopia",
+    "price": 13.99,
+    "author": "Aldous Huxley",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_937356-MLA75734830680_042024-O.webp",
+    "description": "A futuristic society where control is exerted through pleasure and manipulation."
+  },
+  {
+    "name": "The Hobbit",
+    "genre": "Fantasy",
+    "price": 11.99,
+    "author": "J.R.R. Tolkien",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_975402-MLA52011062056_102022-O.webp",
+    "description": "A hobbit embarks on an epic adventure to reclaim treasure stolen by a dragon."
+  },
+  {
+    "name": "The Alchemist",
+    "genre": "Adventure",
+    "price": 16.99,
+    "author": "Paulo Coelho",
+    "image": "https://books.bizmandala.com/media/books/9788172234980/9788172234980-3143.webp",
+    "description": "An Andalusian shepherd travels in search of his personal treasure and discovers life's true meaning."
+  },
+  {
+    "name": "The Picture of Dorian Gray",
+    "genre": "Gothic Fiction",
+    "price": 14.99,
+    "author": "Oscar Wilde",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_730948-MLA70586486388_072023-O.webp",
+    "description": "A young man retains his youth while his portrait ages and reflects his moral corruption."
+  },
+  {
+    "name": "The Brothers Karamazov",
+    "genre": "Philosophical Fiction",
+    "price": 19.99,
+    "author": "Fyodor Dostoevsky",
+    "image": "https://padhegaindia.in/wp-content/uploads/2023/07/9789352763344.webp",
+    "description": "A family drama exploring themes of faith, morality, and freedom."
+  },
+  {
+    "name": "The Road",
+    "genre": "Post-Apocalyptic Fiction",
+    "price": 15.99,
+    "author": "Cormac McCarthy",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_991412-MLA76967129221_062024-O.webp",
+    "description": "A father and son struggle to survive in a post-apocalyptic world."
+  },
+  {
+    "name": "The Odyssey",
+    "genre": "Epic Poetry",
+    "price": 18.99,
+    "author": "Homer",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_652845-MLA50204216390_062022-O.webp",
+    "description": "Odysseus' ten-year journey home after the Trojan War."
+  },
+  {
+    "name": "The Iliad",
+    "genre": "Epic Poetry",
+    "price": 17.99,
+    "author": "Homer",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_941887-MLA51136615888_082022-O.webp",
+    "description": "An epic poem about the rage of Achilles during the Trojan War."
+  },
+  {
+    "name": "Anna Karenina",
+    "genre": "Romance",
+    "price": 19.99,
+    "author": "Leo Tolstoy",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_995283-MLU72972406859_112023-O.webp",
+    "description": "An aristocratic woman falls in love with an officer, triggering a tragic fate."
+  },
+  {
+    "name": "Les Misérables",
+    "genre": "Historical Fiction",
+    "price": 21.99,
+    "author": "Victor Hugo",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_957072-MLU76489632617_052024-O.webp",
+    "description": "An ex-convict seeks redemption in 19th-century France."
+  },
+  {
+    "name": "Dracula",
+    "genre": "Gothic Fiction",
+    "price": 14.99,
+    "author": "Bram Stoker",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_637434-MLA70617569183_072023-O.webp",
+    "description": "The story of the vampire count who terrorizes England."
+  },
+  {
+    "name": "The Count of Monte Cristo",
+    "genre": "Adventure",
+    "price": 18.99,
+    "author": "Alexandre Dumas",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_741246-MLU74216112167_012024-O.webp",
+    "description": "A man unjustly imprisoned seeks revenge against those who betrayed him."
+  },
+  {
+    "name": "A Tale of Two Cities",
+    "genre": "Historical Fiction",
+    "price": 13.99,
+    "author": "Charles Dickens",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_698092-MLU78812119189_082024-O.webp",
+    "description": "A story of love and sacrifice during the French Revolution."
+  },
+  {
+    "name": "Great Expectations",
+    "genre": "Classic",
+    "price": 12.99,
+    "author": "Charles Dickens",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_916679-MLA44737599653_012021-O.webp",
+    "description": "A poor orphan dreams of becoming a gentleman thanks to a mysterious benefactor."
+  },
+  {
+    "name": "The Scarlet Letter",
+    "genre": "Historical Fiction",
+    "price": 11.99,
+    "author": "Nathaniel Hawthorne",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_762915-MLA75515726387_042024-O.webp",
+    "description": "A woman is condemned for adultery in Puritan New England."
+  },
+  {
+    "name": "The Jungle Book",
+    "genre": "Adventure",
+    "price": 10.99,
+    "author": "Rudyard Kipling",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_820139-MLA75931338128_042024-O.webp",
+    "description": "The adventures of Mowgli, a boy raised by wolves in the Indian jungle."
+  },
+  {
+    "name": "The Metamorphosis",
+    "genre": "Absurdist Fiction",
+    "price": 9.99,
+    "author": "Franz Kafka",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_645770-MLA78864410635_092024-O.webp",
+    "description": "A man wakes up transformed into a giant insect."
+  },
+  {
+    "name": "The Old Man and the Sea",
+    "genre": "Fiction",
+    "price": 13.99,
+    "author": "Ernest Hemingway",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_679792-MLA76499250374_052024-O.webp",
+    "description": "An old fisherman struggles to catch a giant fish at sea."
+  },
+  {
+    "name": "Fahrenheit 451",
+    "genre": "Dystopia",
+    "price": 14.99,
+    "author": "Ray Bradbury",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_777111-MLA51934999502_102022-O.webp",
+    "description": "In a future where books are banned, a fireman begins to question his role."
+  },
+  {
+    "name": "The Grapes of Wrath",
+    "genre": "Historical Fiction",
+    "price": 16.99,
+    "author": "John Steinbeck",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_865876-MLA71600241506_092023-O.webp",
+    "description": "A family of farmers migrates during the Great Depression in search of work."
+  },
+  {
+    "name": "Of Mice and Men",
+    "genre": "Fiction",
+    "price": 10.99,
+    "author": "John Steinbeck",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_626972-MLA74416299513_022024-O.webp",
+    "description": "Two migrant workers dream of owning their own farm."
+  },
+  {
+    "name": "The Sun Also Rises",
+    "genre": "Fiction",
+    "price": 12.99,
+    "author": "Ernest Hemingway",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_639802-MLU75093633954_032024-O.webp",
+    "description": "A group of expatriates travels through Spain, seeking meaning in their lives."
+  },
+  {
+    "name": "Catch-22",
+    "genre": "Satire",
+    "price": 15.99,
+    "author": "Joseph Heller",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_903216-MLA76534718210_052024-O.webp",
+    "description": "A satire about the absurdity of war and military bureaucracy."
+  },
+  {
+    "name": "Slaughterhouse-Five",
+    "genre": "Science Fiction",
+    "price": 14.99,
+    "author": "Kurt Vonnegut",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_813022-MLA50201335012_062022-O.webp",
+    "description": "A soldier becomes 'unstuck in time' after surviving the bombing of Dresden."
+  },
+  {
+    "name": "Beloved",
+    "genre": "Historical Fiction",
+    "price": 16.99,
+    "author": "Toni Morrison",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_622170-MLA53711922812_022023-O.webp",
+    "description": "A former slave is haunted by the memories of her deceased daughter."
+  },
+  {
+    "name": "Invisible Man",
+    "genre": "Fiction",
+    "price": 18.99,
+    "author": "Ralph Ellison",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_917621-MLU78140351130_082024-O.webp",
+    "description": "A Black man struggles to find his identity in a racist society."
+  },
+  {
+    "name": "The Bell Jar",
+    "genre": "Fiction",
+    "price": 13.99,
+    "author": "Sylvia Plath",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955175-MLU70282267611_072023-O.webp",
+    "description": "A young writer battles depression in the 1950s."
+  },
+  {
+    "name": "The Stranger",
+    "genre": "Philosophical Fiction",
+    "price": 12.99,
+    "author": "Albert Camus",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_839735-MLA52967326844_122022-O.webp",
+    "description": "An indifferent man is tried for a crime he committed without apparent motive."
+  },
+  {
+    "name": "The Trial",
+    "genre": "Absurdist Fiction",
+    "price": 14.99,
+    "author": "Franz Kafka",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_768043-MLA77523053872_072024-O.webp",
+    "description": "A man is arrested and prosecuted for a crime never revealed to him."
+  },
+  {
+    "name": "The Plague",
+    "genre": "Philosophical Fiction",
+    "price": 15.99,
+    "author": "Albert Camus",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_981913-MLA50345781600_062022-O.webp",
+    "description": "A city is struck by a plague, exploring themes of suffering and solidarity."
+  },
+  {
+    "name": "The Sound and the Fury",
+    "genre": "Fiction",
+    "price": 16.99,
+    "author": "William Faulkner",
+    "image": "https://blackwells.co.uk/jacket/l/9780679600176.webp",
+    "description": "The decline of a Southern family told from multiple perspectives."
+  },
+  {
+    "name": "As I Lay Dying",
+    "genre": "Fiction",
+    "price": 13.99,
+    "author": "William Faulkner",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_931603-MLA42470728429_072020-O.webp",
+    "description": "A family travels to bury their mother, each with their own motivations."
+  },
+  {
+    "name": "East of Eden",
+    "genre": "Fiction",
+    "price": 18.99,
+    "author": "John Steinbeck",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_605649-MLU69818995075_062023-O.webp",
+    "description": "A family saga exploring themes of good and evil in the Salinas Valley."
+  },
+  {
+    "name": "The Glass Menagerie",
+    "genre": "Drama",
+    "price": 11.99,
+    "author": "Tennessee Williams",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_601265-MLA52025580438_102022-O.webp",
+    "description": "A dysfunctional family dreams of escaping their reality."
+  },
+  {
+    "name": "A Streetcar Named Desire",
+    "genre": "Drama",
+    "price": 12.99,
+    "author": "Tennessee Williams",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_823244-MLU54983799754_042023-O.webp",
+    "description": "A fragile woman clashes with brutal reality while living with her sister and brother-in-law."
+  },
+  {
+    "name": "Death of a Salesman",
+    "genre": "Drama",
+    "price": 14.99,
+    "author": "Arthur Miller",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_843837-MLA33023401532_112019-O.webp",
+    "description": "An aging salesman grapples with failed dreams and his family relationships."
+  },
+  {
+    "name": "The Crucible",
+    "genre": "Drama",
+    "price": 13.99,
+    "author": "Arthur Miller",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_699805-MLA48551229202_122021-O.webp",
+    "description": "An allegory of McCarthyism through the Salem witch trials."
+  },
+  {
+    "name": "The Importance of Being Earnest",
+    "genre": "Comedy",
+    "price": 10.99,
+    "author": "Oscar Wilde",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_651694-MLA49437643013_032022-O.webp",
+    "description": "A comedy of errors about false identities and love in Victorian high society."
+  },
+  {
+    "name": "Waiting for Godot",
+    "genre": "Absurdist Drama",
+    "price": 12.99,
+    "author": "Samuel Beckett",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_983488-MLA48601211220_122021-O.webp",
+    "description": "Two men wait for someone named Godot in a play questioning the meaning of existence."
+  },
+  {
+    "name": "The Cherry Orchard",
+    "genre": "Drama",
+    "price": 11.99,
+    "author": "Anton Chekhov",
+    "image": "https://img.perlego.com/book-covers/395261/9781350013605_300_450.webp",
+    "description": "An aristocratic family faces the loss of their home and way of life."
+  },
+  {
+    "name": "Uncle Vanya",
+    "genre": "Drama",
+    "price": 10.99,
+    "author": "Anton Chekhov",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_748255-MLU74449600418_022024-O.webp",
+    "description": "A man reflects on a life of sacrifices and missed opportunities."
+  },
+  {
+    "name": "The Seagull",
+    "genre": "Drama",
+    "price": 9.99,
+    "author": "Anton Chekhov",
+    "image": "https://img.perlego.com/book-covers/729631/9781559368711_300_450.webp",
+    "description": "Artists and lovers explore love, art, and dissatisfaction at a country estate."
+  },
+  {
+    "name": "Three Sisters",
+    "genre": "Drama",
+    "price": 13.99,
+    "author": "Anton Chekhov",
+    "image": "https://img.perlego.com/book-covers/729615/9781559368384_300_450.webp",
+    "description": "Three sisters dream of escaping their monotonous life in a small town."
+  },
+  {
+    "name": "The Master and Margarita",
+    "genre": "Magical Realism",
+    "price": 15.99,
+    "author": "Mikhail Bulgakov",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_996111-MLA26742287475_012018-O.webp",
+    "description": "The devil visits Moscow in a satire blending the supernatural with social critique."
+  },
+  {
+    "name": "The Idiot",
+    "genre": "Philosophical Fiction",
+    "price": 17.99,
+    "author": "Fyodor Dostoevsky",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_797034-MLA81009376516_122024-O.webp",
+    "description": "A pure and kind-hearted man struggles to navigate a corrupt society."
+  },
+  {
+    "name": "Crime and Punishment",
+    "genre": "Psychological Fiction",
+    "price": 18.99,
+    "author": "Fyodor Dostoevsky",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_610360-MLA76204059143_052024-O.webp",
+    "description": "A student commits murder and suffers the psychological consequences of his crime."
+  }
+]

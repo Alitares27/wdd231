@@ -100,16 +100,202 @@ header {
 }
 
 /* Body */
-/* Main*/
-main {
-    width: 95%;
-    padding: 1rem;
+/* Main Content */
+.mainContent {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .mainContent img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .mainContent h2,
+  .mainContent p {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+    left: 10%;
+    right: 10%;
     text-align: center;
-}
+  }
+  
+  .mainContent h2 {
+    top: 20%;
+    font-size: 4rem;
+  }
+  
+  .mainContent p {
+    top: 50%;
+    font-size: 2rem;
+  }
+  
+
+/* Index */
+/* Book List */
+.bookListFiltered, .bookGender, .bookList {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 3rem 0rem;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .bookListItem {
+    background-color: var(--accent-color1);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .bookListItem img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .author{
+    font-family: var(--title-font);
+    font-weight: 900;
+    padding: 0.5rem;
+  }
+
+  .price{
+    font-weight: 600;
+  }
 
 hr {
     width: 60%;
     margin: 0 auto;
+    border: 1px solid var(--secondary-color);
+}
+
+  .bookGender img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .bookGender img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+
+.bookGender figcaption{
+    padding: 1.5rem;
+    font-family: var(--paragraph-font);
+    font-weight: 900;
+}
+
+.bookListItem p, .bookListItem figcaption{
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+/* Buttons */
+.bookbtn, .addbtn, .clearCartBtn {
+    color: #333;
+    border: 2px solid #333;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    font-family: var(--paragraph-font);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .bookbtn:hover, .addbtn:hover, .clearCartBtn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+  }
+
+.description, .genre{
+    display: none;
+}
+
+  /* Pagination*/
+  #pagination-controls {
+    margin-top: 20px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.page-btn {
+    margin: 0 5px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 1rem;
+}
+
+.page-btn.active,
+.page-btn:hover {
+    background: var(--secondary-color);
+    color: white;
+}
+
+/* shortcuts */
+.shortcuts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem; 
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: var(--accent-color2);
+}
+
+.shortcuts h2{
+    font-family: var(--title-font);
+    color: black;
+    padding: 0.5rem;
+}
+
+.trademark, .linkslist, .contact{
+    width: 90%;
+}
+
+.trademark p{
+    color: black;
+    font-weight: 500;
+}
+
+.linkslist li{
+    text-decoration: none;
+    list-style: none;
+    color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    padding: 0.5rem;
+}
+
+.linkslist a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+/* Site Plan */
+.siteMain {
+    width: 95%;
+    padding: 1rem;
+    text-align: center;
 }
 
 .mainHeader {
@@ -200,6 +386,56 @@ font-size: 1.5rem;
 }
 
 
+/* Cart */
+.cartContainer{
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.cartDetails {
+    font-family: var(--paragraph-font);
+    padding: 1.5rem;
+    margin: auto;
+    max-width: 100%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.cartTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    
+}
+
+.cartTable thead {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.cartTable th,
+.cartTable td {
+    padding: 0.7rem 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.cartTable tr:last-child td {
+    border-bottom: none;
+}
+
+.cartTable tr:hover {
+    font-weight: 600;
+}
+
+.cartTable td:last-child,
+.cartTable th:last-child {
+    text-align: Center;
+}
+
+.cartTable strong {
+    color: #333;
+}
 
 /* Footer*/
 footer {
@@ -212,4 +448,48 @@ footer {
     gap: 1rem;
     margin: 0 auto;
     text-align: center;
+}
+
+
+/* Modal */
+.modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 30rem;
+    width: 70%;
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+    position: relative;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.modal-content img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.modal-content p, .modal-content figcaption {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: black;
+    font-family: var(--paragraph-font);
+    font-weight: 700;
 }

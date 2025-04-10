@@ -41,4 +41,20 @@
         display: grid;
         grid-template-columns: 70% 30%;
     }
+
+
+/* Index */
+/* Book List */
+.bookListFiltered, .bookGender {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+  }
+
+  .bookList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+  }
+
 }
