@@ -136,6 +136,17 @@ header {
 
 /* Index */
 /* Book List */
+.msg {
+    color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-family: var(--title-font);
+}
+
+
+
 .bookListFiltered, .bookGender, .bookList {
     display: grid;
     grid-template-columns: 1fr;

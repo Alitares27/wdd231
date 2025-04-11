@@ -178,7 +178,8 @@ document.addEventListener('click', (event) => {
         }
 
         localStorage.setItem('cart', JSON.stringify(cart));
-        alert(`"${bookName}" has been added to your cart.`);
+        const msg = document.querySelector('.msg');
+        msg.innerHTML = `Added ${bookName} to your cart.`;
     }
 });
 
