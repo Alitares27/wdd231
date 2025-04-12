@@ -124,12 +124,12 @@ header {
   }
   
   .mainContent h2 {
-    top: 20%;
+    top: 15%;
     font-size: 4rem;
   }
   
   .mainContent p {
-    top: 50%;
+    top: 55%;
     font-size: 2rem;
   }
   
@@ -143,6 +143,10 @@ header {
     background-color: var(--primary-color);
     color: white;
     font-family: var(--title-font);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,1);
 }
 
 
@@ -215,7 +219,7 @@ hr {
 .bookbtn, .addbtn, .clearCartBtn {
     color: #333;
     border: 2px solid #333;
-    padding: 0.3rem 0.5rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     font-family: var(--paragraph-font);
     border-radius: 8px;
@@ -223,7 +227,11 @@ hr {
     transition: all 0.3s ease;
   }
   
-  .bookbtn:hover, .addbtn:hover, .clearCartBtn:hover {
+  .bookbtn:hover, .addbtn:hover  {
+    transform: scale(1.1);
+  }
+
+  .clearCartBtn:hover {
     background-color: var(--primary-color);
     color: #fff;
     font-weight: 700;
