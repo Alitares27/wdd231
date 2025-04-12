@@ -86,8 +86,15 @@ header {
     transition: 0.5s;
 }
 
-.navigation a:hover {
+.navigation a.active {
+    background-color: white;
     color: var(--secondary-color);
+    border-right: 4px solid white;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: black;
     background-color: var(--accent-color1);
 }
 
