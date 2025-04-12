@@ -47,11 +47,15 @@
         <section class="mainContent">
             <h2>NestBook</h2>
             <p>Discover your next favorite read today!</p>
-            <img src="./images/books.webp" srcset="
+            <img src="./images/books.webp" 
+                srcset="
                     ./images/booksmall.webp 400w,
                     ./images/booksmedium.webp 800w,
                     ./images/bookslarge.webp 1200w
-                " sizes="(max-width: 600px) 400px, (max-width: 900px) 800px, 1200px" alt="books" loading="lazy">
+                " 
+                sizes="(max-width: 600px) 400px, (max-width: 900px) 800px, 1200px" 
+                alt="books" 
+                loading="lazy">
         </section>
         <h2 class="msg">Welcome to NestBook</h2>
         <section class="booksContainer">
@@ -106,7 +110,7 @@
         <p>&copy;<span id="year"></span> Aldair Payehuanca Arias</p>
         <p class="lastMod">Last modification: <span id="modification"></span></p>
     </footer>
-    <script type="module" src="scripts/app.js" defer></script>
+    <script type="module" src="scripts/app.js"></script>
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
     
